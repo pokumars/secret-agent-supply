@@ -101,6 +101,7 @@ padding: 2rem;
 .catalogue-item img{
 width: 100%;
 height: 100%;
+object-fit: contain;
 }
 .catalogue-text{
 color: white;
@@ -146,6 +147,7 @@ padding: 2rem 0;
   }
   .item{
     width:47%;
+    height: 47%;
     margin: 1rem auto;
   }
   .menu{
@@ -171,6 +173,7 @@ padding: 2rem 0;
 }
 .item{
   width:90%;
+  height: 90%;
   margin: 1rem auto;
 }
 .main-banner{
@@ -178,10 +181,8 @@ padding: 2rem 0;
 
 }
 .heading{
-
-
-  top:10rem;
-  width: 100%;
+  top:9rem;
+  width: 80%;
   padding: 1rem 2rem;
 }
 .credits {
